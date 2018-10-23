@@ -1,0 +1,11 @@
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\BabySitterKataApp.exe.config
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\BabySitterKataApp.exe
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\BabySitterKataApp.pdb
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\nunit.framework.dll
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\nunit.framework.pdb
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\bin\Debug\nunit.framework.xml
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\obj\Debug\BabySitterKataApp.csprojAssemblyReference.cache
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\obj\Debug\BabySitterKataApp.csproj.CoreCompileInputs.cache
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\obj\Debug\BabySitterKataApp.csproj.CopyComplete
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\obj\Debug\BabySitterKataApp.exe
+C:\BabySitterKata\BabySitterKata\BabySitterKata\BabySitterKataApp\obj\Debug\BabySitterKataApp.pdb

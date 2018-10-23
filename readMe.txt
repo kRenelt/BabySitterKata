@@ -1,2 +1,3 @@
 KensBabySitterKata
 added read me file
+created visualStudioSolution
