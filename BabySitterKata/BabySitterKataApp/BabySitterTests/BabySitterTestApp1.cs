@@ -15,9 +15,9 @@ namespace BabySitterKataApp.BabySitterTests
         {
             int input = 1;
             //act
-            string output = BabySitterTimeChecker.checkHours(input);
+            int output = BabySitterTimeChecker.checkStartTime(input);
             //assert
-            Assert.AreEqual("1", output);
+            Assert.AreEqual(1, output);
         }
 
         [Test]
@@ -26,9 +26,9 @@ namespace BabySitterKataApp.BabySitterTests
             //arrange
             int input = 1;
             //act
-            string output = BabySitterTimeChecker.checkHours(input);
+            int output = BabySitterTimeChecker.checkEndTime(input);
             //assert
-            Assert.AreEqual("1", output);
+            Assert.AreEqual(1, output);
         }
     }
 }

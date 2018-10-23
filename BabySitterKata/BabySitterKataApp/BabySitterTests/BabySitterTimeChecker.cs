@@ -9,9 +9,14 @@ namespace BabySitterKataApp.BabySitterTests
 {
     class BabySitterTimeChecker
     {
-        internal static string checkHours(int startTime)
+        internal static int checkStartTime(int startTime)
         {
-            return startTime.ToString();
+            return startTime;
+        }
+
+        internal static int checkEndTime(int startTime)
+        {
+            return startTime;
         }
     }
 }
