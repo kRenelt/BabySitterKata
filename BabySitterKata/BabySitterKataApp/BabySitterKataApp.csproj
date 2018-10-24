@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="BabySitterTests\BabySitterTestApp1.cs" />
     <Compile Include="BabySitterTests\BabySitterTimeChecker.cs" />
+    <Compile Include="BabySitterTests\FamilyA.cs" />
+    <Compile Include="BabySitterTests\FamilyTypeChecker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

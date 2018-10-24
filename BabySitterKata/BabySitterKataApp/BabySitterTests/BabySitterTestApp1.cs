@@ -13,7 +13,7 @@ namespace BabySitterKataApp.BabySitterTests
         [Test]
         public void checkStartTime()
         {
-            int input = 1;
+            int input = 1;// this will come from outside
             //act
             int output = BabySitterTimeChecker.checkStartTime(input);
             //assert
@@ -24,11 +24,21 @@ namespace BabySitterKataApp.BabySitterTests
         public void checkEndTime()
         {
             //arrange
-            int input = 1;
+            int input = 1;// this will come from outside
             //act
             int output = BabySitterTimeChecker.checkEndTime(input);
             //assert
             Assert.AreEqual(1, output);
+        }
+
+        [Test]
+        public void calculateTotalPayment()
+        {
+            string familyType = "A";
+
+            string output = FamilyTypeChecker.checkFamilyType(familyType);
+       
+            Assert.AreEqual("A", output);
         }
     }
 }

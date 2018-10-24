@@ -14,9 +14,9 @@ namespace BabySitterKataApp.BabySitterTests
             return startTime;
         }
 
-        internal static int checkEndTime(int startTime)
+        internal static int checkEndTime(int endTime)
         {
-            return startTime;
+            return endTime;
         }
     }
 }
