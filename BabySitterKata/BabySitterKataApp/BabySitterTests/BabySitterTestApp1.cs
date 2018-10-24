@@ -30,15 +30,5 @@ namespace BabySitterKataApp.BabySitterTests
             //assert
             Assert.AreEqual(1, output);
         }
-
-        [Test]
-        public void calculateTotalPayment()
-        {
-            string familyType = "A";
-
-            string output = FamilyTypeChecker.checkFamilyType(familyType);
-       
-            Assert.AreEqual("A", output);
-        }
     }
 }
