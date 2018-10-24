@@ -19,9 +19,10 @@ namespace BabySitterKataApp
             int endTime = Int32.Parse(endTimeString);
             FamilyA familyA = new FamilyA();
             FamilyB familyB = new FamilyB();
+            FamilyC familyC = new FamilyC();
 
             // int totalEarned = familyA.moneyEarned(startTime, endTime);
-            int totalEarned = familyB.moneyEarned(startTime, endTime);
+            int totalEarned = familyC.moneyEarned(startTime, endTime);
             Console.WriteLine("you earned = " + totalEarned);
 
             Console.ReadLine();

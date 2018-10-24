@@ -53,6 +53,7 @@
     <Compile Include="BabySitterTests\BabySitterTimeChecker.cs" />
     <Compile Include="BabySitterTests\FamilyA.cs" />
     <Compile Include="BabySitterTests\FamilyB.cs" />
+    <Compile Include="BabySitterTests\FamilyC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
