@@ -13,11 +13,11 @@ namespace BabySitterKataApp.BabySitterTests
         [Test]
         public void checkStartTime()
         {
-            int input = 1;// this will come from outside
+            int input = 5;// this will come from outside
             //act
-            int output = BabySitterTimeChecker.checkStartTime(input);
+            bool output = BabySitterTimeChecker.checkStartTime(input);
             //assert
-            Assert.AreEqual(1, output);
+            Assert.AreEqual(true, output);
         }
 
         [Test]
@@ -26,9 +26,9 @@ namespace BabySitterKataApp.BabySitterTests
             //arrange
             int input = 1;// this will come from outside
             //act
-            int output = BabySitterTimeChecker.checkEndTime(input);
+            bool output = BabySitterTimeChecker.checkEndTime(input);
             //assert
-            Assert.AreEqual(1, output);
+            Assert.AreEqual(true, output);
         }
     }
 }

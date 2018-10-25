@@ -9,14 +9,20 @@ namespace BabySitterKataApp.BabySitterTests
 {
     class BabySitterTimeChecker
     {
-        internal static int checkStartTime(int startTime)
+        internal static bool checkStartTime(int startTime)
         {
-            return startTime;
+            if (startTime >= 5)
+                return true;
+            else
+                return false;
         }
 
-        internal static int checkEndTime(int endTime)
+        internal static bool checkEndTime(int endTime)
         {
-            return endTime;
+            if (endTime <= 4)
+                return true;
+            else
+                return false;
         }
     }
 }
