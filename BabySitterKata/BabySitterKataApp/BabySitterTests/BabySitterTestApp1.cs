@@ -31,6 +31,7 @@ namespace BabySitterKataApp.BabySitterTests
             //assert
             Assert.AreEqual(true, output);
         }
+
         [Test]
         public void FamilyAPayTest()
         {
@@ -40,6 +41,17 @@ namespace BabySitterKataApp.BabySitterTests
             int output = BabySitterTimeChecker.CheckFamilyAPaytest(startTime, endTime);
             //assert
             Assert.AreEqual(150, output);
+        }
+
+        [Test]
+        public void FamilyBPayTest()
+        {
+            int startTime = 5;
+            int endTime = 2;
+            FamilyB familyB = new FamilyB();
+            int output = familyB.MoneyEarned(startTime, endTime);
+            //assert
+            Assert.AreEqual(108, output);
         }
     }
 }
