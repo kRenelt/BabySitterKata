@@ -38,7 +38,8 @@ namespace BabySitterKataApp.BabySitterTests
             int startTime = 5;
             int endTime = 2;
 
-            int output = BabySitterTimeChecker.CheckFamilyAPaytest(startTime, endTime);
+            FamilyA familyA = new FamilyA();
+            int output = familyA.MoneyEarned(startTime, endTime);
             //assert
             Assert.AreEqual(150, output);
         }
