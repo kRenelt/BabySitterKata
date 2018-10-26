@@ -11,7 +11,7 @@ namespace BabySitterKataApp.BabySitterTests
     public class BabySitterTestApp1
     {
         [Test]
-        public void checkStartTime()
+        public void CheckStartTime()
         {
             int input = 5;// this will come from outside
             //act
@@ -21,12 +21,13 @@ namespace BabySitterKataApp.BabySitterTests
         }
 
         [Test]
-        public void checkEndTime()
+        public void CheckEndTime()
         {
             //arrange
-            int input = 1;// this will come from outside
+            int startTime = 5;// this will come from outside
+            int endTime = 2;
             //act
-            bool output = BabySitterTimeChecker.CheckEndTime(input);
+            bool output = BabySitterTimeChecker.CheckEndTime(startTime, endTime);
             //assert
             Assert.AreEqual(true, output);
         }
