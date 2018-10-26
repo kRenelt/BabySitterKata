@@ -42,11 +42,11 @@ namespace BabySitterKataApp
                 FamilyB familyB = new FamilyB();
                 FamilyC familyC = new FamilyC();
                 if (familyType == "A")
-                    totalEarned = familyA.moneyEarned(startTime, endTime);
+                    totalEarned = familyA.MoneyEarned(startTime, endTime);
                 else if (familyType == "B")
-                    totalEarned = familyB.moneyEarned(startTime, endTime);
+                    totalEarned = familyB.MoneyEarned(startTime, endTime);
                 else if (familyType == "C")
-                    totalEarned = familyC.moneyEarned(startTime, endTime);
+                    totalEarned = familyC.MoneyEarned(startTime, endTime);
 
                 Console.WriteLine("Total amount earned = " + totalEarned);
                 Console.WriteLine("would you like to schedule another Apt'");
