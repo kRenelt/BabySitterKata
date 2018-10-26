@@ -17,9 +17,9 @@ namespace BabySitterKataApp.BabySitterTests
                 return false;
         }
 
-        internal static bool CheckEndTime(int endTime)
+        internal static bool CheckEndTime(int endTime, int startTime)
         {
-            if (endTime <= 4)
+            if (endTime <= 4 || endTime > startTime)
                 return true;
             else
                 return false;
