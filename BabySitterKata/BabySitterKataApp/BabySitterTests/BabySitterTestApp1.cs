@@ -53,5 +53,16 @@ namespace BabySitterKataApp.BabySitterTests
             //assert
             Assert.AreEqual(108, output);
         }
+
+        [Test]
+        public void FamilyCPayTest()
+        {
+            int startTime = 5;
+            int endTime = 2;
+            FamilyC familyC = new FamilyC();
+            int output = familyC.MoneyEarned(startTime, endTime);
+            //assert
+            Assert.AreEqual(159, output);
+        }
     }
 }
