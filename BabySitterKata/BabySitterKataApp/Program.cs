@@ -18,15 +18,20 @@ namespace BabySitterKataApp
                 Console.WriteLine("Please Enter Start Time.. eg 5, 6, 7");
                 string startTimeString = Console.ReadLine();
 
-                int startTime = Int32.Parse(startTimeString);
+                var startTime = 0;
+                bool result = int.TryParse(startTimeString, out startTime);
+
                 if (startTime < 5)
                 {
                     Console.WriteLine("We are sorry our babysitters cannot start until after 5:00 PM");
                     continue;
                 }
+     
                 Console.WriteLine("Please enter an end time");
                 string endTimeString = Console.ReadLine();
-                int endTime = Int32.Parse(endTimeString);
+
+                var endTime = 0;
+                bool endResult = int.TryParse(endTimeString, out endTime);
 
                 if (endTime > 4)
                 {
