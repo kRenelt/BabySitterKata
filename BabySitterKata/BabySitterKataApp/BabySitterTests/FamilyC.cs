@@ -8,7 +8,7 @@ namespace BabySitterKataApp.BabySitterTests
 {
     class FamilyC
     {
-        public int moneyEarned(int startTime, int endTime)
+        public int MoneyEarned(int startTime, int endTime)
         {
             int totalPay = 0;
             int payForTimeBefore9 = 21;
